@@ -1,3 +1,9 @@
+#!/bin/bash
+# ******************************************
+# Script : CPU Mining
+# Developer: ch0
+# ******************************************
+
 sudo apt-get update -y
 sudo apt-get install git -y
 sudo apt-get install automake -y
@@ -11,3 +17,6 @@ cd cpuminer-multi
 make
 ./cpuminer --cputest
 wget https://raw.githubusercontent.com/ch0sys/GameCP/master/mining.sh
+clear
+echo "Finish"
+echo "For Start : sh mining.sh"
