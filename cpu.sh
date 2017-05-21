@@ -1,9 +1,9 @@
-sudo apt-get update
-sudo apt-get install git
-sudo apt-get install automake
-sudo apt-get install g++
-sudo apt-get install libcurl4-openssl-dev
-sudo apt-get install libssl-dev
+sudo apt-get update -y
+sudo apt-get install git -y
+sudo apt-get install automake -y
+sudo apt-get install g++ -y
+sudo apt-get install libcurl4-openssl-dev -y
+sudo apt-get install libssl-dev -y
 git clone https://github.com/tpruvot/cpuminer-multi.git 
 cd cpuminer-multi
 ./autogen.sh
