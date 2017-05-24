@@ -1,1 +1,1 @@
-./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u lesserooniti@gmail.com -p x
+./cpuminer  -a cryptonight -o stratum+tcp://mine.moneropool.com:3333 -u 49NE6fEEgLdGdB1HBK1ajgaQ2nEZmyMgBNZpcwhETku2CvihKfqEibb2XEvaj4sXneHWx84VDa65yi5MSETvWgBZ6PqYyLP  -p x
