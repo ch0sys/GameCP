@@ -1,0 +1,5 @@
+mysql -u root -p
+CREATE DATABASE gpanel;
+CREATE USER 'gpanel'@localhost IDENTIFIED BY 'gpanel1';
+GRANT ALL PRIVILEGES ON gpanel.* TO 'gpanel'@localhost;
+use gpanel;
