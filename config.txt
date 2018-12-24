@@ -1,0 +1,26 @@
+"cpu_threads_conf" :
+ [ 
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 2 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 3 }
+ ],
+
+"use_slow_memory" : "warn",
+"nicehash_nonce" : false,
+"aes_override" : true,
+"use_tls" : false,
+"tls_secure_algo" : true,
+"tls_fingerprint" : "",
+"pool_address" : "pool.minexmr.com:4444",
+"wallet_address" : "42HmEM1536fZ6LmmrGh1v6dENL3SYarKkgnj1ZUxg4VBDxcG4cSEx9tABjZEG4GRm9joUbJpG8aPpbfhei1jmUY96h78osn",
+"pool_password" : "x",
+"call_timeout" : 10,
+"retry_time" : 10,
+"giveup_limit" : 0,
+"verbose_level" : 4,
+"h_print_time" : 10,
+"daemon_mode" : false,
+"output_file" : "",
+"httpd_port" : 0,
+"prefer_ipv4" : true,
